@@ -44,3 +44,43 @@ section {
   flex-wrap: wrap;
   gap: 1px;
 }
+
+.disk {
+  height: 22px;
+
+  border-radius: 12px;
+
+  position: absolute;
+}
+.s1 {
+  width: 45px;
+  color: red;
+}
+.s2 {
+  width: 65px;
+  color: orange;
+}
+.s3 {
+  width: 85px;
+  color: yellow;
+}
+.s4 {
+  width: 105px;
+  color: green;
+}
+.s5 {
+  width: 125px;
+  color: blue;
+}
+.s6 {
+  width: 145px;
+  color: indigo;
+}
+.s7 {
+  width: 165px;
+  color: purple;
+}
+.s8 {
+  width: 185px;
+  color: violet;
+}
