@@ -6,7 +6,7 @@
 
 h1,
 p,
-span {
+.move {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,25 +18,30 @@ body {
 }
 
 .tower {
+  position: relative;
   width: 150px;
   height: 280px;
 
   display: flex;
   flex-direction: column-reverse;
-
   align-items: center;
   flex: 1 1 100px;
 }
 
 .pole {
+  position: absolute;
+  margin: 0;
+  padding: 40;
   border: 4px;
-  bottom: 2px;
-
   width: 1px;
   height: 200px;
+  bottom: 42px;
 
   background: black;
-  border-radius: 10px;
+}
+
+.texto {
+  align-items: end;
 }
 
 section {
@@ -45,42 +50,43 @@ section {
   gap: 1px;
 }
 
-.disk {
-  height: 22px;
-
-  border-radius: 12px;
-
-  position: absolute;
+div > span {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 1;
+  height: 15px;
 }
+
 .s1 {
   width: 45px;
-  color: red;
+  background-color: red;
 }
 .s2 {
   width: 65px;
-  color: orange;
+  background-color: orange;
 }
 .s3 {
   width: 85px;
-  color: yellow;
+  background-color: yellow;
 }
 .s4 {
   width: 105px;
-  color: green;
+  background-color: green;
 }
 .s5 {
   width: 125px;
-  color: blue;
+  background-color: blue;
 }
 .s6 {
   width: 145px;
-  color: indigo;
+  background-color: indigo;
 }
 .s7 {
   width: 165px;
-  color: purple;
+  background-color: purple;
 }
 .s8 {
   width: 185px;
-  color: violet;
+  background-color: violet;
 }
