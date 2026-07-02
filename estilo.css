@@ -23,18 +23,20 @@ body {
 ol {
   border: solid;
   width: 600px;
+  height: 300px;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
+  overflow: auto;
 }
 li {
-    margin-left: 100px;
+  margin-left: 30px;
 }
 
 div > span {
   position: relative;
   margin: 0;
   padding: 0;
-  border: 1;
+  border: 1px;
   height: 15px;
 }
 
@@ -42,6 +44,14 @@ section {
   display: flex;
   flex-wrap: wrap;
   gap: 1px;
+  border: 4px solid;
+}
+
+button{
+  width: 500px;
+  height: 50px;
+  border: solid;
+  margin-left: 25vw;
 }
 
 .tower {
