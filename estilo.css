@@ -1,15 +1,21 @@
 * {
   margin: 4px;
   padding: 4px;
-  border: 2px solid red;
+  border: 5px;
 }
 
 h1,
-p,
 .move {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
 }
 
 body {
@@ -89,4 +95,9 @@ div > span {
 .s8 {
   width: 185px;
   background-color: violet;
+}
+
+.selecionar {
+  border: solid blue;
+  border-radius: 12px;
 }
