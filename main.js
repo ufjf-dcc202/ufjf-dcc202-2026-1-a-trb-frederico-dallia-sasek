@@ -111,7 +111,7 @@ function voltar() {
 function voltarParaJogada(evento) {
   const li = evento.target;
   let temp = Number(li.className);
-  while (move > temp+1) {
+  while (move > temp + 1) {
     voltar();
   }
 }
